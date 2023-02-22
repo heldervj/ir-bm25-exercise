@@ -18,7 +18,7 @@ Second, the tool was used for code generation. The overall result was good in a 
 Testing
 ------------
 
-For testing the algorithm, run the [notebooks/im_system.ipynb](im_system.ipynb) notebook. In the session 3, "Usage", there is a query and a NB_RESULTS parameter that allows a quick test, with the display of document ID, title, bm25 score and the first 200 characters of the abstract.
+For testing the algorithm, run the [notebooks/im_system.ipynb](im_system.ipynb) notebook. In the session 3, "Usage", there is a query and a NB_RESULTS parameter that allows a quick test, with the display of document ID, title, bm25 score and the first 200 characters of the abstract. Query and NB_RESULTS can be changed to view different results.
 
 Project Organization
 ------------
