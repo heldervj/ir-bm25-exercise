@@ -1,7 +1,7 @@
 Information Retrieval System - BM25
 ==============================
 
-This project was fully developed with help from chatGPT, from coding to algorithm understanding. The BM25 algorithm was implemented for a simple Information Retrieval System to work on [Youtube.com](CISI Dataset).
+This project was fully developed with help from chatGPT, from coding to algorithm understanding. The BM25 algorithm was implemented for a simple Information Retrieval System to work on [CISI Dataset](https://chat.openai.com/chat).
 
 First, the tool was used with basic chatting to understand what is an IR system and what is BM25. The similarity with TF-IDF - a relative basic algorithm - made it easier, being BM25 a kind of more robust version of TF-IDF - introducing workarounds for document length and term frequency saturation problems. After getting a basic knowledge and some key words, the web search for a small deep study was possible - and faster.
 
