@@ -23,6 +23,7 @@ Project Organization
 
     ├── notebooks
     │   ├── im_system.ipynb     <- Notebook with bm25 IR system implemented with chatGPT
+    ├── .gitignore              <- Gitignore for ignoring specific files
     ├── README.md               <- General report about the exercise
     ├── requirements.txt        <- Libraries
 
