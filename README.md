@@ -6,6 +6,8 @@ Abstract
 
 This project was fully developed with help from chatGPT, from coding to algorithm understanding. The BM25 algorithm was implemented for a simple Information Retrieval System to work on [CISI Dataset](https://chat.openai.com/chat). The system is available for test in an **experimental** environment inside the notebook [notebooks/im_system.ipynb](im_system.ipynb).
 
+> __**Note:**__ Works better on Google Colab!
+
 Work with chatGPT
 ------------
 
