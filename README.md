@@ -1,57 +1,22 @@
-project_name
+Information Retrieval System - BM25
 ==============================
 
-A short description of the project.
+This project was fully developed with help from chatGPT, from coding to algorithm understanding. The BM25 algorithm was implemented for a simple Information Retrieval System to work on [Youtube.com](CISI Dataset).
+
+First, the tool was used with basic chatting to understand what is an IR system and what is BM25. The similarity with TF-IDF - a relative basic algorithm - made it easier, being BM25 a kind of more robust version of TF-IDF - introducing workarounds for document length and term frequency saturation problems. After getting a basic knowledge and some key words, the web search for a small deep study was possible - and faster.
+
+Second, the tool was used for code generation. The overall result was good in a first look, with the BM25 equation well defined, but some small changes were needed, such as file paths and parsings that were not working well. All changes were highlighted with prefix "Manual change" in the code. The retrieval report was also changed to a easier-to-read layout and the document title was added to it. No changes were made on the hyperparameters K1, B and AVG_DOC_LEN that were defined by chatGPT.
+
+For testing the algorithm, run the [notebooks/im_system.ipynb](im_system.ipynb) notebook. In the session 3, "Usage", there is a query and a NB_RESULTS parameter that allows a quick test, with the display of document ID, title, bm25 score and the first 200 characters of the abstract.
 
 Project Organization
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    ├── notebooks
+    │   ├── im_system.ipynb     <- Notebook with bm25 IR system implemented with chatGPT
+    ├── README.md               <- General report about the exercise
 
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+<p><small>Project developed with <a target="_blank" href="https://chat.openai.com/chat">chatGPT</a>.</small></p>
