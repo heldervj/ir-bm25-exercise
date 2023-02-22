@@ -24,6 +24,7 @@ Project Organization
     ├── notebooks
     │   ├── im_system.ipynb     <- Notebook with bm25 IR system implemented with chatGPT
     ├── README.md               <- General report about the exercise
+    ├── requirements.txt        <- Libraries
 
 
 --------
